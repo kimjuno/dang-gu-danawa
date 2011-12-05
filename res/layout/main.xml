@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<DanGuDANAWA.Algorithm.MainView
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="30" android:id="@+id/mainView" />
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="70">
+		<TextView android:layout_width="50px"
+			android:layout_height="wrap_content" android:text="당점X">
+		</TextView>
+		<SeekBar android:id="@+id/seekPointX" android:progress="160" android:layout_width="fill_parent" android:max="320" android:layout_height="wrap_content"></SeekBar>
+	
+</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="70">
+		<TextView android:layout_width="50px"
+			android:layout_height="wrap_content" android:text="당점Y">
+		</TextView>
+		<SeekBar android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:max="320" android:id="@+id/seekPointY"
+			android:progress="160">
+		</SeekBar>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="70">
+		<TextView android:layout_width="50px"
+			android:layout_height="wrap_content" android:text="파워">
+		</TextView>
+		<SeekBar android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:max="160" android:id="@+id/seekPower"
+			android:progress="80">
+		</SeekBar>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="70">
+		<Button android:layout_width="80dip"
+			android:layout_height="fill_parent" android:text="샷" android:id="@+id/btnCueShot"></Button>
+		<Button android:layout_width="80dip"
+			android:layout_height="fill_parent" android:text="리셋" android:id="@+id/btnReset"></Button>
+		<Button android:layout_width="80dip"
+			android:layout_height="fill_parent" android:text="길보기" android:id="@+id/btnAlgorChange"></Button>
+		<Button android:layout_width="80dip"
+			android:layout_height="fill_parent" android:text="마찰력\n적용" android:id="@+id/btnFriction"></Button>
+	</LinearLayout>
+</LinearLayout>

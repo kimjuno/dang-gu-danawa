@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:gravity="center"
+    >
+    
+<TextView android:id="@+id/textview_freemode_helptext"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="1. 공 위치 선정\n (흰공, 노란공, 빨간공)\n 2. 각도 및 힘, 회전 조정 \n 3. Shot버튼 클릭\n"/>
+
+    <Button   
+	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+	android:id="@+id/button_freemode_ok"
+	android:text="확인"
+	/>
+	
+	</LinearLayout>
