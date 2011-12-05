@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:gravity="center"
+    >
+    
+<TextView android:id="@+id/textview_simulation_helptext"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="1. Run : 시뮬 시작\n2. Other : 다른 추천길\n3. Common : 기본  길 보기"/>
+
+    <Button   
+	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+	android:id="@+id/button_simulation_ok"
+	android:text="확인"
+	/>
+	
+	</LinearLayout>
